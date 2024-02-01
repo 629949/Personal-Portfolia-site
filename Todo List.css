@@ -3,7 +3,7 @@
     background-color: rgb(10, 121, 132);
 }
 
-.profile {
+.todo {
     display: flex;
     justify-content: space-around;
     text-align: center;

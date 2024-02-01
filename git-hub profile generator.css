@@ -1,11 +1,13 @@
 * body {
     box-sizing: border-box;
-    background-color: rgb(10, 121, 132);
+    background-color:rgb(10, 121, 132); 
 }
 
 .profile {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-direction: column;
+
     
 }
