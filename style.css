@@ -87,7 +87,13 @@ img {
     margin-bottom: 20px;
     border-radius: 10%;
     flex-direction: column;
+    :hover {
+        color: rgb(24, 24, 83);
+        cursor: pointer;
+    }
 }
+
+
 
 .footer {
     text-align: center;
@@ -139,8 +145,9 @@ img {
 
 .social a {
     text-decoration: none;
-    color: #333;
+    color: black;
     flex-direction: column;
+    height: 20px;
 }
 
 .social a:hover {
