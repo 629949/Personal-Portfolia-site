@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: rgb(24, 24, 83);
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+button:hover,
+home:hover {
+    color: green;
+    cursor:pointer;
+
+}
+
+.home {
+    padding: 3rem 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item1 {
+    display: flex;
+    text-align: center;
+    padding: 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.item2 {
+    display: flex;
+    margin: 0;
+    padding: 10%;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    text-wrap: wrap;
+}
+
+.item3 {
+    padding: 10%;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.item4,
+.item5 {
+    border-bottom: 1px solid maroon;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    flex-direction: column;
+    
+    
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(241, 241, 245);
+    color: rgb(9, 9, 89);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav  {
+        margin: 10px 0;
+    }
+}
+
+.social {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.social a {
+    text-decoration: none;
+    color: #333;
+    flex-direction: column;
+}
+
+.social a:hover {
+    color: rgb(24, 24, 83);
+}
+
