@@ -1,18 +1,17 @@
-* body {
-    box-sizing: border-box;
-    background-color: rgb(10, 121, 132);
-    border: 2px solid black;
-    width: 30%;
-    border-radius: 20%;
-    align-items: center;
-    flex-direction: column;
-    
+*body {
+    background-color: white;
+    border-radius: 12px solid gold;
 }
 
 .todo {
+    padding: 50rem 10%;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
- 
+    flex-direction: column;
+
     
+}
+
+.item1 {
+    border-radius: 12px solid black;
 }

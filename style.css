@@ -48,7 +48,7 @@ home:hover {
     padding: 10%;
     background-color: whitesmoke;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     flex-direction: row;
     justify-content: space-around;
     font-size: 30px;
@@ -62,7 +62,7 @@ img {
 
 .item2 {
     display: flex;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 10%;
     background-color: whitesmoke;
     color: black;
@@ -77,6 +77,7 @@ img {
     color: black;
     border-radius: 10px;
     text-align: center;
+    width: 757px;
 }
 
 .item4,
