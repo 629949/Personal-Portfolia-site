@@ -1,9 +1,15 @@
 *body {
-    background-color: darkgreen;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
     
 }
-
+.navigation {
+    background-color: aqua;
+    display: flex;
+    
+}
 .todo {
     padding: 50rem 10%;
     align-items: center;
@@ -11,10 +17,14 @@
     flex-direction: column;
     border-radius: 1px solid black;
     border-radius: 10px;
+    background-color: aqua;
 
     
 }
 
-.item1 {
-    border-radius: 12px solid black;
+.todo .item1 {
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
 }

@@ -15,11 +15,13 @@ body {
     top: 0;
     width: 100%;
     color: white;
+ 
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    
 }
 
 nav li {
