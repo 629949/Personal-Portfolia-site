@@ -8,22 +8,22 @@
 .navigation {
     background-color: aqua;
     display: flex;
-    
+
 }
 .todo {
     padding: 50rem 10%;
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-radius: 1px solid black;
     border-radius: 10px;
     background-color: aqua;
+
 
     
 }
 
 .todo .item1 {
-    border-radius: 20px;
+    border-radius: 20px ;
     height: 50%;
     width: 50%;
     border: 1px solid black;
